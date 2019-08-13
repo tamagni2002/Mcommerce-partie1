@@ -1,0 +1,161 @@
+{
+	"id": "8faf6050-e0fe-4ef0-99e6-72c5444e2c3a",
+	"name": "SpringTest2Collection",
+	"allTests": [],
+	"timestamp": "2019-08-13T15:22:23.140Z",
+	"collection_id": "5847bb68-aa51-4b02-b605-349a16a82f75",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "5847bb68-aa51-4b02-b605-349a16a82f75",
+		"name": "SpringTest2Collection",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"46fb8ce2-c5fa-4e04-bb4a-e61e68fbbda6",
+			"0069929d-2f84-43aa-a9d2-78283d1fd2b6",
+			"74aefb21-1bfe-4ed2-b050-6a837ec07050"
+		],
+		"folders_order": [],
+		"owner": "8402708",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "46fb8ce2-c5fa-4e04-bb4a-e61e68fbbda6",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"103"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "103",
+			"totalRequestTime": "103",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "0069929d-2f84-43aa-a9d2-78283d1fd2b6",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"22"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "22",
+			"totalRequestTime": "22",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "74aefb21-1bfe-4ed2-b050-6a837ec07050",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"64"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "64",
+			"totalRequestTime": "64",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 189,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "46fb8ce2-c5fa-4e04-bb4a-e61e68fbbda6",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-08-13T15:22:23.140Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "0069929d-2f84-43aa-a9d2-78283d1fd2b6",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-08-13T15:22:23.140Z",
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+				"detail": {
+					"name": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "74aefb21-1bfe-4ed2-b050-6a837ec07050",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-08-13T15:22:23.140Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
